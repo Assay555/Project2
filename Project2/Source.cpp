@@ -8,60 +8,48 @@ int main()
 	int input;
 	int svar = 1;
 	cin >> input;
-	while (svar == 1)
-	{
-		if (input == 10) 
-		{
+	while (true){
+		if (input == 10) {
 			cout << "Vad roligt!" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 9) 
-		{
+		else if (input == 9) {
 			cout << "Trevligt, trevligt" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 8) 
-		{
+		else if (input == 8) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 7) 
-		{
+		else if (input == 7) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 6) 
-		{
+		else if (input == 6) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 5) 
-		{
+		else if (input == 5) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 4) 
-		{
+		else if (input == 4) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 3) 
-		{
+		else if (input == 3) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 2) 
-		{
+		else if (input == 2) {
 			cout << "" << endl;
-			svar = 0;
+			break;
 		}
-		else if (input == 1) 
-		{
+		else if (input == 1) {
 			cout << "KRAAAAAM!!!" << endl;
-			svar = 0;
+			break;
 		}
-		else 
-		{
+		else {
 			cout << "Jag sa mellan 1-10" << endl;
 			input = 0;
 			cin >> input;
